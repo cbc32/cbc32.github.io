@@ -1,5 +1,19 @@
 # Project Proposal
 
+> [Presentation Video](https://drive.google.com/file/d/1fUmoW6gX-tr-PJVJDECjYxbybdZQKm7d/view?usp=sharing)
+> 
+> [Gantt Chart](https://docs.google.com/spreadsheets/d/1vfExUXj6yurWZGNaynLrfRR7cTVz6sPxxW6IlOLRPzA/edit?usp=sharing)
+
+## Contribution Table
+| Task | Member |
+|:-----:|:-----:|
+| Introduction/Background | Prithvi |
+| Problem Definition | Divyam |
+| Methods | Aiden, Charlie |
+| Results | Ray |
+| Gantt Chart | Aiden |
+| Github Setup | Charlie
+
 ## Introduction/Background
 
 Deaf and hard-of-hearing people face issues with communication every day, relying only on sign language. However, with almost no teaching in school, people without these disabilities often fail to interpret sign language. This issue is very common for Bengali Sign Language (BdSL) users due to the lack of research and BdSL interpreters. We aim to mitigate this problem. Our system would rely on images of bare hands in varied positions, providing a natural experience for users. There are a total of 12,581 different hand signs for the 38 BdSL alphabets included in the dataset. 
@@ -38,17 +52,3 @@ Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classificati
 
 Research Gate Publication. Retrieved October 3, 2022, from https://www.researchgate.net/publication/337366713_Image-based_Bengali_Sign_Language_Alphabet_Recognition_for_Deaf_and_Dumb_Community
 Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014).
-
-## Gantt Chart
-
-[Google Sheets](https://docs.google.com/spreadsheets/d/1vfExUXj6yurWZGNaynLrfRR7cTVz6sPxxW6IlOLRPzA/edit?usp=sharing)
-
-## Contribution Table
-| Task | Member |
-|:-----:|:-----:|
-| Introduction/Background | Prithvi |
-| Problem Definition | Divyam |
-| Methods | Aiden, Charlie |
-| Results | Ray |
-| Gantt Chart | Aiden |
-| Github Setup | Charlie
