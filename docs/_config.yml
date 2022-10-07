@@ -1,8 +1,0 @@
-markdown: kramdown
-
-title: Bengali Sign Language (BdSL) Classification
-description: Charles (Charlie) Bauer, Divyam Gupta, Jui-Tse (Ray) Hung, Prithvi Khosla, Geonhui (Aiden) Lee
-
-plugins:
-- jekyll-remote-theme
-remote_theme: pages-themes/slate@v0.2.0
