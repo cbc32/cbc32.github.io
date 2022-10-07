@@ -5,4 +5,4 @@ description: Charles (Charlie) Bauer, Divyam Gupta, Jui-Tse (Ray) Hung, Prithvi 
 
 plugins:
 - jekyll-remote-theme
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme:pages-themes/slate@v0.2.0
