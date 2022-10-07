@@ -6,6 +6,7 @@
 
 ## Contribution Table
 
+|-------------------------+----------------|
 | Task                    | Member         |
 |:------------------------|:---------------|
 | Introduction/Background | Prithvi        |
@@ -14,6 +15,7 @@
 | Results                 | Ray            |
 | Gantt Chart             | Aiden          |
 | Github Setup            | Charlie        |
+|-------------------------+----------------|
 
 
 ## Introduction/Background
