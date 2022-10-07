@@ -32,7 +32,7 @@ The image data will be pre-processed to reduce the effect of backgrounds, shadow
 
 The dataset could be split into training and validation sets. Within the training set, the models will train their parameters on training sets and be evaluated on test sets for various train-test splits. The model with the best performance will be trained on the entire training set and evaluated on the validation set.
 
-We will use two model types, convolutional neural network (CNN) and support vector machine (SVM). For CNN, we will use famous architectures such as AlexNet (Krizhevsky et al., 2017), VGG16 (Simonyan et al., 2014), and ResNet50 (He et al., 2016). SVM could be implemented using scikit-learn. A series of narrowing GridSearchCV could tune the SVM.
+We will use two model types, convolutional neural network (CNN) and support vector machine (SVM). For CNN, we will use famous architectures such as AlexNet, VGG16, and ResNet50. SVM could be implemented using scikit-learn. A series of narrowing GridSearchCV could tune the SVM.
 
 ## Potential results and Discussion
 
