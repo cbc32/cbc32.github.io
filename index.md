@@ -5,6 +5,7 @@
 > [Gantt Chart](https://docs.google.com/spreadsheets/d/1vfExUXj6yurWZGNaynLrfRR7cTVz6sPxxW6IlOLRPzA/edit?usp=sharing)
 
 ## Contribution Table
+
 | Task                    | Member         |
 |:------------------------|:---------------|
 | Introduction/Background | Prithvi        |
