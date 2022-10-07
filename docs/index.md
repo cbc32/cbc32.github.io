@@ -12,7 +12,7 @@
 | Methods | Aiden, Charlie |
 | Results | Ray |
 | Gantt Chart | Aiden |
-| Github Setup | Charlie
+| Github Setup | Charlie |
 
 ## Introduction/Background
 
