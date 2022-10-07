@@ -5,7 +5,7 @@
 Deaf and hard-of-hearing people face issues with communication every day, relying only on sign language. However, with almost no teaching in school, people without these disabilities often fail to interpret sign language. This issue is very common for Bengali Sign Language (BdSL) users due to the lack of research and BdSL interpreters. We aim to mitigate this problem. Our system would rely on images of bare hands in varied positions, providing a natural experience for users. There are a total of 12,581 different hand signs for the 38 BdSL alphabets included in the dataset. 
 
 
-#Problem Definition
+## Problem Definition
 
 Beginners may find it challenging to differentiate between the Bengali sign language alphabet's symbolic variations. A program that generates a real-time analysis of hand movement will help consumers to increase the efficiency and accuracy of their learning process while giving them valuable input to improve the experience. Additionally, we believe that people who do not understand the Bengali sign language will be able to converse with the users of this language easily. We aim to build a computer vision-based system for the automatic recognition of Bengali sign languages to mitigate this problem.
 
