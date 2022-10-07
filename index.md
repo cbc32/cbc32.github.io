@@ -6,16 +6,15 @@
 
 ## Contribution Table
 
-|-------------------------+----------------|
-| Task                    | Member         |
-|:------------------------|:---------------|
-| Introduction/Background | Prithvi        |
-| Problem Definition      | Divyam         |
-| Methods                 | Aiden, Charlie |
-| Results                 | Ray            |
-| Gantt Chart             | Aiden          |
-| Github Setup            | Charlie        |
-|-------------------------+----------------|
+<table>
+  <tr><th>Header A</th><th align="center">Header B</th></tr>
+  <tr><td>Introduction/Background</td><td>Prithvi</td></tr>
+  <tr><td>Problem Definition</td><td>Divyam</td></tr>
+  <tr><td>Methods</td><td>Aiden, Charlie</td></tr>
+  <tr><td>Results</td><td>Ray</td></tr>
+  <tr><td>Gantt Chart</td><td>Aiden</td></tr>
+  <tr><td>Github Setup</td><td>Charlie</td></tr>
+</table>
 
 
 ## Introduction/Background
