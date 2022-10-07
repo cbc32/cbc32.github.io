@@ -37,18 +37,14 @@ This is a multi-class classification project. Among the models we trained, we wi
 
 ## Dataset
 
-Bengali Sign Language Dataset. (2020, March 8). Kaggle. Retrieved October 3, 2022, from https://www.kaggle.com/datasets/muntakimrafi/bengali-sign-language-dataset
+_Bengali Sign Language Dataset._ (2020, March 8). Kaggle. Retrieved October 3, 2022, from https://www.kaggle.com/datasets/muntakimrafi/bengali-sign-language-dataset
 
 ## References
 
-Amor, E. (2021, March 12). 4 CNN Networks Every Machine Learning Engineer Should Know. TOPBOTS. Retrieved October 3, 2022, from https://www.topbots.com/important-cnn-architectures/.
+Amor, E. (2021, March 12). _4 CNN Networks Every Machine Learning Engineer Should Know._ TOPBOTS. Retrieved October 3, 2022, from https://www.topbots.com/important-cnn-architectures/.
 
-Bengali Sign Language Recognition Using Deep Convolutional Neural Network. (2018, June 1). IEEE Conference Publication. Retrieved October 3, 2022, from https://ieeexplore.ieee.org/document/8640962.
+_Bengali Sign Language Recognition Using Deep Convolutional Neural Network._ (2018, June 1). IEEE Conference Publication. Retrieved October 3, 2022, from https://ieeexplore.ieee.org/document/8640962.
 
-Goonewardana, H. (2019, January 14). Evaluating Multi-Class Classifiers. Apprentice Journal. Retrieved October 3, 2022, from https://medium.com/apprentice-journal/evaluating-multi-class-classifiers-12b2946e755b.
+Goonewardana, H. (2019, January 14). _Evaluating Multi-Class Classifiers._ Apprentice Journal. Retrieved October 3, 2022, from https://medium.com/apprentice-journal/evaluating-multi-class-classifiers-12b2946e755b.
 
-He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
-Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Communications of the ACM 60.6 (2017): 84-90. 
-
-Research Gate Publication. Retrieved October 3, 2022, from https://www.researchgate.net/publication/337366713_Image-based_Bengali_Sign_Language_Alphabet_Recognition_for_Deaf_and_Dumb_Community
-Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014).
+Rafi, A., & Nawal, N. (2019, October) _Image-based Bengali Sign Language Alphabet Recognition for Deaf and Dumb Community._ ResearchGate. Retrieved October 3, 2022, from https://www.researchgate.net/publication/337366713_Image-based_Bengali_Sign_Language_Alphabet_Recognition_for_Deaf_and_Dumb_Community.
