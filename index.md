@@ -7,7 +7,7 @@
 ## Contribution Table
 
 <table>
-  <tr><th>Header A</th><th align="center">Header B</th></tr>
+  <tr><th>Task</th><th>Member</th></tr>
   <tr><td>Introduction/Background</td><td>Prithvi</td></tr>
   <tr><td>Problem Definition</td><td>Divyam</td></tr>
   <tr><td>Methods</td><td>Aiden, Charlie</td></tr>
