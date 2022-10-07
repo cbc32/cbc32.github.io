@@ -27,7 +27,7 @@ Bengali Sign Language Dataset. (2020, March 8). Kaggle. Retrieved October 3, 202
 
 Amor, E. (2021, March 12). 4 CNN Networks Every Machine Learning Engineer Should Know. TOPBOTS. Retrieved October 3, 2022, from https://www.topbots.com/important-cnn-architectures/.
 
-Bengali Sign Language Recognition Using Deep Convolutional Neural Network. (2018, June 1). IEEE Conference Publication | IEEE Xplore. Retrieved October 3, 2022, from https://ieeexplore.ieee.org/document/8640962.
+Bengali Sign Language Recognition Using Deep Convolutional Neural Network. (2018, June 1). IEEE Conference Publication. Retrieved October 3, 2022, from https://ieeexplore.ieee.org/document/8640962.
 
 Goonewardana, H. (2019, January 14). Evaluating Multi-Class Classifiers. Apprentice Journal. Retrieved October 3, 2022, from https://medium.com/apprentice-journal/evaluating-multi-class-classifiers-12b2946e755b.
 
@@ -36,3 +36,10 @@ Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classificati
 
 Research Gate Publication. Retrieved October 3, 2022, from https://www.researchgate.net/publication/337366713_Image-based_Bengali_Sign_Language_Alphabet_Recognition_for_Deaf_and_Dumb_Community
 Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014).
+
+- Gantt Chart
+
+[Google Sheets](https://docs.google.com/spreadsheets/d/1vfExUXj6yurWZGNaynLrfRR7cTVz6sPxxW6IlOLRPzA/edit?usp=sharing)
+
+- Contribution Table
+
