@@ -44,9 +44,11 @@ Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for lar
 [Google Sheets](https://docs.google.com/spreadsheets/d/1vfExUXj6yurWZGNaynLrfRR7cTVz6sPxxW6IlOLRPzA/edit?usp=sharing)
 
 ## Contribution Table
+| Task | Member |
+|:-----:|:-----:|
 | Introduction/Background | Prithvi |
 | Problem Definition | Divyam |
 | Methods | Aiden, Charlie |
 | Results | Ray |
 | Gantt Chart | Aiden |
-| Github Setup | Charlie |
+| Github Setup | Charlie
