@@ -1,6 +1,3 @@
-layout: post
-title: "POST-TITLE"
-
 # Project Proposal
 
 > [Presentation Video](https://drive.google.com/file/d/1fUmoW6gX-tr-PJVJDECjYxbybdZQKm7d/view?usp=sharing)
