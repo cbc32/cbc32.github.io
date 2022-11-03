@@ -1,23 +1,22 @@
-# Project Proposal
+# Project Midterm Report
 
-> [Presentation Video](https://drive.google.com/file/d/1fUmoW6gX-tr-PJVJDECjYxbybdZQKm7d/view?usp=sharing)
-> 
-> [Gantt Chart](https://docs.google.com/spreadsheets/d/1vfExUXj6yurWZGNaynLrfRR7cTVz6sPxxW6IlOLRPzA/edit?usp=sharing)
+> [Proposal](https://cbc32.github.io/proposal.html)
 
 ## Contribution Table
 
 <table>
   <tr><th>Task</th><th>Member</th></tr>
-  <tr><td>Introduction/Background</td><td>Prithvi</td></tr>
-  <tr><td>Problem Definition</td><td>Divyam</td></tr>
-  <tr><td>Methods</td><td>Aiden, Charlie</td></tr>
-  <tr><td>Results</td><td>Ray</td></tr>
-  <tr><td>Gantt Chart</td><td>Aiden</td></tr>
-  <tr><td>Github Setup</td><td>Charlie</td></tr>
+  <tr><td>Implement Background Removal</td> <td>Aiden</td></tr>
+  <tr><td>Implement Brightness/Contrast Processing</td> <td>Divyam</td></tr>
+  <tr><td>Implement Augmentation</td> <td>Ray, Charlie</td></tr>
+  <tr><td>Implement AlexNet Method</td> <td>Ray</td></tr>
+  <tr><td>Update Background, Problem Definition, Data Collection</td> <td>Prithvi</td></tr>
+  <tr><td>Add to Methods & Results</td> <td>Ray</td></tr>
+  <tr><td>Github Organization</td> <td>Charlie</td></tr>
 </table>
 
 
-## Introduction/Background
+## Background
 
 Deaf and hard-of-hearing people face issues with communication every day, relying only on sign language. However, with almost no teaching in school, people without these disabilities often fail to interpret sign language. This issue is very common for Bengali Sign Language (BdSL) users due to the lack of research and BdSL interpreters. We aim to mitigate this problem. Our system would rely on images of bare hands in varied positions, providing a natural experience for users. There are a total of 12,581 different hand signs for the 38 BdSL alphabets included in the dataset. 
 
@@ -25,6 +24,14 @@ Deaf and hard-of-hearing people face issues with communication every day, relyin
 ## Problem Definition
 
 Beginners may find it challenging to differentiate between the Bengali sign language alphabet's symbolic variations. A program that generates a real-time analysis of hand movement will help consumers to increase the efficiency and accuracy of their learning process while giving them valuable input to improve the experience. Additionally, we believe that people who do not understand the Bengali sign language will be able to converse with the users of this language easily. We aim to build a computer vision-based system for the automatic recognition of Bengali sign languages to mitigate this problem.
+
+## Data Collection
+
+_Bengali Sign Language Dataset._ (2020, March 8). Kaggle. Retrieved October 3, 2022, from https://www.kaggle.com/datasets/muntakimrafi/bengali-sign-language-dataset
+
+The data was published on Kaggle with a [paper in IEEE](https://www.researchgate.net/publication/337366713_Image-based_Bengali_Sign_Language_Alphabet_Recognition_for_Deaf_and_Dumb_Community). The research was sponsored by the Bangladesh University of Engineering and Technology  in collaboration with the National Federation of the Deaf (Bangladesh).
+
+We used the dataset directly in a Kaggle notebook. We also downloaded it and uploaded it to GitHub.
 
 ## Methods
 
@@ -34,13 +41,9 @@ The dataset could be split into training and validation sets. Within the trainin
 
 We will use two model types, convolutional neural network (CNN) and support vector machine (SVM). For CNN, we will use famous architectures such as AlexNet, VGG16, and ResNet50. SVM could be implemented using scikit-learn. A series of narrowing GridSearchCV could tune the SVM.
 
-## Potential results and Discussion
+## Results
 
 This is a multi-class classification project. Among the models we trained, we will compare the accuracy, loss, average precision, average recall, average F1 score, and average ROC AUC, to see if certain models perform better than others and why. At the current moment, we expect CNN-based models to perform better than SVM models. Additionally, we will also generate a confusion matrix for each model as well as looking at the precision and recall for each individual BdSL alphabet. We want to know if some BdSL letters are more easily confused than others, and if so, why. We will also be checking if our models are biased under certain conditions. 
-
-## Dataset
-
-_Bengali Sign Language Dataset._ (2020, March 8). Kaggle. Retrieved October 3, 2022, from https://www.kaggle.com/datasets/muntakimrafi/bengali-sign-language-dataset
 
 ## References
 
