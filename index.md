@@ -18,7 +18,7 @@
 
 ## Background
 
-Deaf and hard-of-hearing people face issues with communication every day, relying only on sign language. However, with almost no teaching in school, people without these disabilities often fail to interpret sign language. This issue is very common for Bengali Sign Language (BdSL) users due to the lack of research and BdSL interpreters. We aim to mitigate this problem. Our system would rely on images of bare hands in varied positions, providing a natural experience for users. There are a total of 12,581 different hand signs for the 38 BdSL alphabets included in the dataset. 
+Deaf and hard-of-hearing people face issues with communication every day, relying only on sign language. However, with barely any education in schools, people without these disabilities often fail to interpret sign language. This issue is very common for Bengali Sign Language (BdSL) users due to the lack of research in the area and the number of BdSL interpreters. We aim to mitigate this problem. Our system would rely on images of bare hands in varied positions, providing a natural experience for users.
 
 
 ## Problem Definition
@@ -29,21 +29,28 @@ Beginners may find it challenging to differentiate between the Bengali sign lang
 
 _Bengali Sign Language Dataset._ (2020, March 8). Kaggle. Retrieved October 3, 2022, from https://www.kaggle.com/datasets/muntakimrafi/bengali-sign-language-dataset
 
-The data was published on Kaggle with a [paper in IEEE](https://www.researchgate.net/publication/337366713_Image-based_Bengali_Sign_Language_Alphabet_Recognition_for_Deaf_and_Dumb_Community). The research was sponsored by the Bangladesh University of Engineering and Technology  in collaboration with the National Federation of the Deaf (Bangladesh).
+The data was published on Kaggle with a [paper in IEEE](https://www.researchgate.net/publication/337366713_Image-based_Bengali_Sign_Language_Alphabet_Recognition_for_Deaf_and_Dumb_Community). The research was sponsored by the Bangladesh University of Engineering and Technology  in collaboration with the National Federation of the Deaf (Bangladesh). 
 
-We used the dataset directly in a Kaggle notebook. We also downloaded it and uploaded it to GitHub.
+We used the dataset directly in a Kaggle notebook. We also downloaded it and uploaded it to GitHub. The dataset contains 12,581 different hand images belonging 38 BdSL signs.
 
 ## Methods
 
-The image data will be pre-processed to reduce the effect of backgrounds, shadows, unwanted parts, 3D rotation, and left vs. right hand on classification. We will perform image augmentation by shifting, flipping, and rotating images to increase the dataset size.
+### Preprocessing: Background and Shadow Removal
+Most of the images we take in real life contain various backgrounds and shadows. To reflect this condition, our data set contains various backgrounds and shadows. For this reason, to increase the accuracy of data set analysis, it is essential for us to remove the background and shadows. Background and shadow removal removes any kind of objects, lighting, and shadows that we do not need. To remove the background and shadows, we used the rembg tool. Unlike other background and shadow removal tools that use simple mathematical calculations, the rembg tool produces much more accurate results by using a neural network-based U2Net. However, the rembg tool does not output 100% accuracy. If you look at the images below, you can see that the image 1 has the background and shadows removed well, but the image 2 has a little background left. However, the result of the rembg tool does not change that it produces much more accurate results than the results of other background and shadow removal tools. As a result of the inspection, the rembg tool completely removed the background and shadows of more than 98% of the images.
 
-The dataset could be split into training and validation sets. Within the training set, the models will train their parameters on training sets and be evaluated on test sets for various train-test splits. The model with the best performance will be trained on the entire training set and evaluated on the validation set.
 
-We will use two model types, convolutional neural network (CNN) and support vector machine (SVM). For CNN, we will use famous architectures such as AlexNet, VGG16, and ResNet50. SVM could be implemented using scikit-learn. A series of narrowing GridSearchCV could tune the SVM.
+### Preprocessing: Brightness and Contrast Enhancer
+To train our model properly based on the dataset, we increased the brightness of the images and enhanced contrasts for the same. This allows for the model to correctly identify and differentiate the different alphabets. We used the Python Imaging Library to perform these tasks on our dataset.
+
+
+### Preprocessing: Data Augmentation
+To increase the size of our dataset and reduce the possibility for overfitting, we add Keras preprocessing layers that randomly rotate and flip images horizontally/vertically. We believe adding random rotation and flipping makes sense in the real world since if we were to deploy this computer vision model to read Bengali Sign Language, it is possible that the image captured by the camera could be from different angles and sometimes even upside down.
+
+### Models
+We will use two model types, convolutional neural network (CNN) and support vector machine (SVM). For CNN, we will use famous architectures such as AlexNet (Krizhevsky et al., 2017), VGG16 (Simonyan et al., 2014), ResNet50 (He et al., 2016), and MobileNet (Howard et al., 2017). We use Tensorflow Keras to train these CNN models. SVM could be implemented using scikit-learn. A series of narrowing GridSearchCV could tune the SVM.
 
 ## Results
 
-This is a multi-class classification project. Among the models we trained, we will compare the accuracy, loss, average precision, average recall, average F1 score, and average ROC AUC, to see if certain models perform better than others and why. At the current moment, we expect CNN-based models to perform better than SVM models. Additionally, we will also generate a confusion matrix for each model as well as looking at the precision and recall for each individual BdSL alphabet. We want to know if some BdSL letters are more easily confused than others, and if so, why. We will also be checking if our models are biased under certain conditions. 
 
 ## References
 
