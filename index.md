@@ -38,6 +38,10 @@ We used the dataset directly in a Kaggle notebook. We also downloaded it and upl
 ### Preprocessing: Background and Shadow Removal
 Most of the images we take in real life contain various backgrounds and shadows. To reflect this condition, our data set contains various backgrounds and shadows. For this reason, to increase the accuracy of data set analysis, it is essential for us to remove the background and shadows. Background and shadow removal removes any kind of objects, lighting, and shadows that we do not need. To remove the background and shadows, we used the rembg tool. Unlike other background and shadow removal tools that use simple mathematical calculations, the rembg tool produces much more accurate results by using a neural network-based U2Net. However, the rembg tool does not output 100% accuracy. If you look at the images below, you can see that the image 1 has the background and shadows removed well, but the image 2 has a little background left. However, the result of the rembg tool does not change that it produces much more accurate results than the results of other background and shadow removal tools. As a result of the inspection, the rembg tool completely removed the background and shadows of more than 98% of the images.
 
+![Example 1 Before](/assets/ex1_before.jpg)
+![Example 1 After](/assets/ex1_after.jpg)
+![Example 2 Before](/assets/ex2_before.jpg)
+![Example 2 After](/assets/ex2_after.jpg)
 
 ### Preprocessing: Brightness and Contrast Enhancer
 To train our model properly based on the dataset, we increased the brightness of the images and enhanced contrasts for the same. This allows for the model to correctly identify and differentiate the different alphabets. We used the Python Imaging Library to perform these tasks on our dataset.
@@ -51,6 +55,7 @@ We will use two model types, convolutional neural network (CNN) and support vect
 
 ## Results
 
+![Results Table](/assets/midterm_results_table.png)
 
 ## References
 
