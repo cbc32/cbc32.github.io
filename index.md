@@ -40,6 +40,7 @@ Most of the images we take in real life contain various backgrounds and shadows.
 
 ![Example 1 Before](/assets/ex1_before.jpg)
 ![Example 1 After](/assets/ex1_after.jpg)
+
 ![Example 2 Before](/assets/ex2_before.jpg)
 ![Example 2 After](/assets/ex2_after.jpg)
 
@@ -70,8 +71,6 @@ Comparing different data preprocessing techniques, background removal seems to b
 The following is the confusion matrix from the AlexNet model trained on background removed dataset with data augmentation.
 
 ![Confusion Matrix](/assets/confusion_matrix_mid_term_report.png)
-
-Based on the confusion matrix, the model tends to confuse two pairs of symbols.
 
 ![Confusion Matrix Example](/assets/confusion_matrix_example.png)
 
