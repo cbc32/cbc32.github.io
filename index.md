@@ -55,7 +55,31 @@ We will use two model types, convolutional neural network (CNN) and support vect
 
 ## Results
 
+To evaluate the performance of the models, we measured their accuracy and loss. We also measured their average f1 and roc auc score across all classes, which can be calculated by passing in `macro` as argument to the average parameter in the associated sklearn.metrics. Additionally, we looked at the confusion matrix to inspect the classification result for each class in more detail. 
+
+So far we have trained several models from scratch using the AlexNet (Krizhevsky et al., 2017) architecture. We used SGD optimizer (learning rate 0.001, momentum 0.9) and stopped training after no improvement in training loss for 10 epochs and restored the weights from the epoch with minimal loss (use tf.keras.callbacks.EarlyStopping). We didn’t use adam optimizer since when trying adam optimizer, we found that the model often got stuck and training loss wasn’t decreasing. 
+
+The following table compares the results of training with different data preprocessing techniques and data augmentation settings. 
+
 ![Results Table](/assets/midterm_results_table.png)
+
+Overall, our result indicates that AlexNet is able to achieve around 90% accuracy regardless of the data preprocessing techniques or data augmentation settings. Compared to the results from Rafi et al. (2019), where they achieved a test accuracy of 89.6% using an architecture similar to VGG19, we were able to achieve similar results with a simpler architecture as AlexNet is only about ⅓ the size of VGG19 in terms of number of parameters (AlexNet: 46,905,446 parameters; VGG19: 139,725,926 parameters).
+
+Comparing different data preprocessing techniques, background removal seems to be the most effective in terms of improving testing accuracy while enhancing contrasts doesn’t seem to help much and even has an adverse effect. After introducing data augmentation to combat overfitting, we observed that the training loss increased, and the testing loss decreased in cases where we applied background removal. However, testing loss increased in other cases.  Overall, applying background removal plus data augmentation seems to give us the best result. And we will use this setting to train future models.
+
+The following is the confusion matrix from the AlexNet model trained on background removed dataset with data augmentation.
+
+![Confusion Matrix](/assets/confusion_matrix_mid_term_report.png)
+
+Based on the confusion matrix, the model tends to confuse two pairs of symbols.
+
+![Confusion Matrix Example](/assets/confusion_matrix_example.png)
+
+### Next Steps
+- We want to see if we are able to train even simpler models such as MobileNet (Howard et al., 2017) architecture that can be deployed on mobile devices while achieving a similar level of accuracy.
+- We want to see if training bigger models (like imageNet) would give us even higher testing accuracy.
+- We want to try traditional machine learning techniques such as SVM and see how they perform.
+
 
 ## References
 
