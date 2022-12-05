@@ -7,12 +7,9 @@
 
 <table>
   <tr><th>Task</th><th>Member</th></tr>
-  <tr><td>Implement Background Removal</td> <td>Aiden</td></tr>
-  <tr><td>Implement Brightness/Contrast Processing</td> <td>Divyam</td></tr>
-  <tr><td>Implement Augmentation</td> <td>Ray, Charlie</td></tr>
-  <tr><td>Implement AlexNet Method</td> <td>Ray</td></tr>
-  <tr><td>Update Background, Problem Definition, Data Collection</td> <td>Prithvi</td></tr>
-  <tr><td>Add to Methods & Results</td> <td>Ray</td></tr>
+  <tr><td>Continue CNN</td> <td>Ray</td></tr>
+  <tr><td>SVM</td> <td>Aiden</td></tr>
+  <tr><td>Add to Report, Presentation, and Video</td> <td>All</td></tr>
   <tr><td>Github Organization</td> <td>Charlie</td></tr>
 </table>
 
@@ -89,10 +86,9 @@ http://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CV
 Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2017). Imagenet classification with deep convolutional neural networks. Communications of the ACM, 60(6), 84-90.
 https://dl.acm.org/doi/abs/10.1145/3065386
 
-Howard, A. G., Zhu, M., Chen, B., Kalenichenko, D., Wang, W., Weyand, T., ... & Adam, H. (2017). Mobilenets: Efficient convolutional neural networks for mobile vision applications. arXiv.
-https://arxiv.org/abs/1704.04861
-
 Rafi, A. M., Nawal, N., Bayev, N. S. N., Nima, L., Shahnaz, C., & Fattah, S. A. (2019, October). Image-based bengali sign language alphabet recognition for deaf and dumb community. In 2019 IEEE global humanitarian technology conference (GHTC) (pp. 1-7). IEEE.
 https://ieeexplore.ieee.org/abstract/document/9033031/?casa_token=fqX0wWHAUfcAAAAA:UGYwm_6jlOVwANq9kCi146mVqPfanS5w47Gp9tPwh3Eh-yCcakPnY5uakjePHMkMYtob2Yfdxw
+
+Sandler, M., Howard, A., Zhu, M., Zhmoginov, A., & Chen, L. C. (2018). Mobilenetv2: Inverted residuals and linear bottlenecks. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4510-4520).
 
 Simonyan, K., & Zisserman, A. (2014). Very deep convolutional networks for large-scale image recognition. arXiv. https://arxiv.org/abs/1409.1556
