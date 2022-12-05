@@ -1,6 +1,7 @@
-# Project Midterm Report
+# Project Final Report
 
 > [Proposal](https://cbc32.github.io/proposal.html)
+> [Midterm Report](https://cbc32.github.io/midterm.html)
 
 ## Contribution Table
 
