@@ -59,6 +59,8 @@ For CNN, we used famous architectures such as AlexNet (Krizhevsky et al., 2017),
 ### Support Vector Machine
 SVM implementation consists of (1) svc declaration, (2) svc fitting, and (3) svc prediction. The svc declaration involves a kernel and gamma that determine the method and degree of svc fitting. The kernels that determine the method of svc fitting are mainly linear, poly, and RBF. Linear makes the svc fitting the simplest and takes little time, while poly and RBF make the svc fitting more flexibly and accurately but take a relatively long time. Reference images for linear, poly, and RBF are as follows. For SVM, we used linear as the method of svc fitting.
 
+![SVM Kernels](/assets/svm_kernels.png)
+
 ## Results & Discussion
 
 ### Convolutional Neural Network
