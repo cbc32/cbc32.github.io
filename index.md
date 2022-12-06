@@ -3,6 +3,8 @@
 > [Proposal](https://cbc32.github.io/proposal.html)
 > 
 > [Midterm Report](https://cbc32.github.io/midterm.html)
+> 
+> [Final Video](https://drive.google.com/file/d/1pTXgWAgIaGp3UzyzzoM0d9ND-liN3Thu/view)
 
 ## Contribution Table
 
